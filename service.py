@@ -19,7 +19,7 @@ class Yolov5Runnable(bentoml.Runnable):
             self.model.cpu()
 
         # Config inference settings
-        self.inference_size = 320
+        self.inference_size = 640
 
         # Optional configs
         # self.model.conf = 0.25  # NMS confidence threshold

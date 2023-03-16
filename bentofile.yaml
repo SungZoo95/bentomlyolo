@@ -1,7 +1,8 @@
 service: "service.py:svc"
 include:
   - "service.py"
-  - "yolov5s.pt"
+  - "yolov5m.pt"
+  - "best.pt"
 python:
   requirements_txt: "./requirements.txt"
 docker:
